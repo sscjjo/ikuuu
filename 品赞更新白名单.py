@@ -11,12 +11,12 @@ import json
 
 # --- 配置区域 ---
 # 品赞代理配置
-PINZAN_API_URL = 'https://service.ipzan.com/whiteList-add'  # 官方API地址
-PINZAN_NO = '20241212334904497725'  # 套餐购买编号
-PINZAN_SIGN_KEY = '770tbbbbc27ppmoj'  # 签名密钥（控制台查看）
-PINZAN_LOGIN_PASSWORD = 'ccov2001'  # 登录密码
-PINZAN_PACKAGE_SECRET = 'pvtov1rp39ndkbo'  # 套餐提取密匙
-PINZAN_USER_ID = 'DDF84L9UAAO'  # 品赞用户ID
+PINZAN_API_URL = ''  # 官方API地址
+PINZAN_NO = ''  # 套餐购买编号
+PINZAN_SIGN_KEY = ''  # 签名密钥（控制台查看）
+PINZAN_LOGIN_PASSWORD = ''  # 登录密码
+PINZAN_PACKAGE_SECRET = ''  # 套餐提取密匙
+PINZAN_USER_ID = ''  # 品赞用户ID
 
 # --- 日志配置 ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
