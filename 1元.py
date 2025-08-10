@@ -5,15 +5,15 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # 配置区
-LOGIN_URL = 'https://ikuuu.one/auth/login'
-CHECKIN_URL = 'https://ikuuu.one/user/checkin'
-EMAIL = ''
-PASSWORD = ''
+LOGIN_URL = 'https://ikuuu.de/auth/login'
+CHECKIN_URL = 'https://ikuuu.de/user/checkin'
+EMAIL = '26407964@qq.com'
+PASSWORD = 'ccov2001'
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-    'Origin': 'https://ikuuu.one',
-    'Referer': 'https://ikuuu.one/auth/login',
+    'Origin': 'https://ikuuu.ch',
+    'Referer': 'https://ikuuu.ch/auth/login',
 }
 
 def login_and_get_cookies(email, password):
